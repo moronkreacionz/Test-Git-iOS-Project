@@ -14,6 +14,7 @@
 		ABCDFC2E1A5D78E90070EF5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCDFC2D1A5D78E90070EF5C /* Images.xcassets */; };
 		ABCDFC311A5D78E90070EF5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABCDFC2F1A5D78E90070EF5C /* LaunchScreen.xib */; };
 		ABCDFC3D1A5D78E90070EF5C /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCDFC3C1A5D78E90070EF5C /* Git_TestTests.m */; };
+		ABCDFC481A5D88380070EF5C /* VjTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCDFC471A5D88380070EF5C /* VjTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		ABCDFC361A5D78E90070EF5C /* Git-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCDFC3B1A5D78E90070EF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABCDFC3C1A5D78E90070EF5C /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		ABCDFC461A5D88380070EF5C /* VjTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VjTest.h; sourceTree = "<group>"; };
+		ABCDFC471A5D88380070EF5C /* VjTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VjTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				ABCDFC251A5D78E90070EF5C /* AppDelegate.m */,
 				ABCDFC271A5D78E90070EF5C /* ViewController.h */,
 				ABCDFC281A5D78E90070EF5C /* ViewController.m */,
+				ABCDFC461A5D88380070EF5C /* VjTest.h */,
+				ABCDFC471A5D88380070EF5C /* VjTest.m */,
 				ABCDFC2A1A5D78E90070EF5C /* Main.storyboard */,
 				ABCDFC2D1A5D78E90070EF5C /* Images.xcassets */,
 				ABCDFC2F1A5D78E90070EF5C /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				ABCDFC291A5D78E90070EF5C /* ViewController.m in Sources */,
 				ABCDFC261A5D78E90070EF5C /* AppDelegate.m in Sources */,
 				ABCDFC231A5D78E90070EF5C /* main.m in Sources */,
+				ABCDFC481A5D88380070EF5C /* VjTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
